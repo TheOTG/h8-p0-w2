@@ -1,0 +1,46 @@
+Pseudocode Challenge
+
+1. Newton Second Law
+
+CREATE "Force"
+CREATE "Mass"
+CREATE "Acceleration"
+ASSIGN "Mass" as 600
+ASSIGN "Acceleration" as 2
+ASSIGN "Force" as "Mass" multiplied by "Acceleration"
+DISPLAY "Force"
+
+
+2. Tahun Kabisat
+
+CREATE "Year"
+READ and ASSIGN "Year"
+IF ("Year" is divisible by 4 AND "Year" is not divisible by 100) OR
+    ("Year" is divisible by 4 AND "Year" is divisible by 100 AND "Year" is divisible by 400)
+    DISPLAY "Year" is a leap year
+ELSE
+    DISPLAY "Year" is not a leap year
+
+
+3. Laundry Day
+
+CREATE "Laundry"
+ASSIGN "Laundry" as 20
+WHILE "Laundry" > 0
+    SUBTRACT "Laundry" by 1
+DISPLAY All laundry is inside
+
+
+4. Periksa Kuku
+
+CREATE "Student"
+CREATE "Nail"
+ASSIGN "Student" as 40
+WHILE "Student" > 0
+    READ and ASSIGN "Nail" as Long OR Short
+    IF "Nail" is Long
+        DISPLAY Detention!
+    ELSE
+        DISPLAY Good!
+    SUBTRACT "Student" by 1
+
