@@ -14,4 +14,7 @@ if (nama === "" && peran === "") {
 } else if (nama !== "" && peran === "Penyihir") {
     console.log("Selamat datang di Dunia Proxytia, " + nama);
     console.log("Halo Penyihir "+ nama + ", ciptakan keajaiban yang membantu kemenanganmu!");
+} else if (nama !== "" && peran !== "") {
+    console.log("Selamat datang di Dunia Proxytia, " + nama);
+    console.log("Halo " + peran + " " + nama + ", jadilah yang terhebat!");
 }
